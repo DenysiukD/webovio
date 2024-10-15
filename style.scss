@@ -1,13 +1,51 @@
 @import 'variables';
 @import 'reset';
+@import 'font';
 .container{
     margin-left: 164px;
     margin-right: 166px;
 }
 .header{
     &-wrapper{
-        background: url(/images/Header-bg.jpg) no-repeat center/cover;
+        background: url(/images/Bitmap.png) no-repeat center/cover;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            padding-bottom: 210px;
+            padding-top: 24px;
     }
+
+    &-partners{
+        display: flex;
+    column-gap: 66px;
+    background: $white;
+    position: absolute;
+    bottom: 75px;
+    right:0;
+    padding: 60px 166px 54px 65px;
+    }
+    &-suptitle{
+    color: $white;
+    font-size: 14px;
+    margin-top: 121px;
+    }
+    &-title{
+    color:$white;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    margin-top: 24px;
+    }
+   &-desc{
+    color:$white;
+    margin-bottom: 45px;;
+   }
+
+   &-link{
+    margin-bottom: 210px;
+    color: #FFD723;
+    ;
+   }
 }
 .nav{
     display: flex;
@@ -27,5 +65,10 @@
             height: 1.8px;
             background: $black;
         }
+
+    }
+    &-logo{
+
     }
 }
+
