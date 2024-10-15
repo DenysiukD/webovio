@@ -1,0 +1,31 @@
+@import 'variables';
+@import 'reset';
+.container{
+    margin-left: 164px;
+    margin-right: 166px;
+}
+.header{
+    &-wrapper{
+        background: url(/images/Header-bg.jpg) no-repeat center/cover;
+    }
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    &-burger{
+        border-radius: 50%;
+        background: $white;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3.6px;
+        align-items: center;
+        width: 40px;
+        padding: 14px 0;
+        cursor: pointer;
+        &-line{
+            width: 18px;
+            height: 1.8px;
+            background: $black;
+        }
+    }
+}
