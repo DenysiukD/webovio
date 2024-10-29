@@ -88,3 +88,119 @@ h1, h2, h3, h4, h5, h6 {
   height: 1.8px;
   background: black;
 }
+.strategy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.strategy-left-suptitle {
+  font-size: 14px;
+  color: rgba(77, 83, 60, 0.9);
+  margin-bottom: 29px;
+}
+.strategy-left-title {
+  font-size: 36px;
+  line-height: 128%;
+  color: #4d533c;
+  margin-bottom: 35px;
+}
+.strategy-left-description {
+  line-height: 162%;
+  color: rgba(33, 56, 66, 0.6);
+  margin-bottom: 42px;
+}
+.strategy-left-link {
+  text-decoration: underline;
+  color: #d4d6d4;
+}
+.strategy-right {
+  box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
+  background: var(white);
+  padding-top: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.strategy-right-title {
+  font-size: 24px;
+  line-height: 167%;
+  color: #4d533c;
+  width: 426px;
+  margin-bottom: 50px;
+}
+.strategy-right-worker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-worker-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+
+.worker-info-title {
+  font-size: 22px;
+  color: #4d533c;
+  font-weight: 700;
+}
+
+.worker-info-subtitle {
+  color: #152934;
+}
+
+.work {
+  display: flex;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
+  justify-content: center;
+  margin-top: 293px;
+  padding-left: 50px;
+}
+.work-title {
+  color: #4D533C;
+  font-size: 36px;
+  font-weight: 900;
+}
+.work-text {
+  color: #213842;
+  line-height: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 109px;
+  position: relative;
+}
+.card-info {
+  margin-right: 400px;
+  line-height: 26px;
+  color: #213842;
+}
+.card-text {
+  font-family: "Poppins", sans-serif;
+}
+.card-title {
+  color: #213842;
+  line-height: 46px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.card-text {
+  font-family: "Poppins", sans-serif;
+}
+
+.review-one {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  left: 322px;
+  top: 350px;
+}
