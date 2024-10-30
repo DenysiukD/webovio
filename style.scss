@@ -191,13 +191,43 @@ background: rgb(255, 255, 255);
 padding: 30px;
 left: 322px;
 top: 350px;
-
-
 }
 .second-card{
-margin-left: 172px;
+    margin-left: 172px;
 }
-
 .second-review{
-left: 60%;
+    left: 60%;
+}
+.services{
+    margin-top: 300px;
+    & h2{
+        width: 650px;
+    }
+    &-cards{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        &-item{
+            width: 12%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            &-title{
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            &-desc{
+                color: #213842;
+                line-height: 26px;
+                margin-bottom: 20%;
+            }
+            &-link{
+                color: #D4D6D4;
+                text-decoration: underline;
+            }
+            &-link:hover{
+                color: #FFD723;
+            }
+        }
+    }
 }
