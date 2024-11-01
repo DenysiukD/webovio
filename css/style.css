@@ -248,3 +248,70 @@ h1, h2, h3, h4, h5, h6 {
 .services-cards-item-link:hover {
   color: #FFD723;
 }
+
+.footer-wrapper {
+  background: url(/images/footer-bg.png) no-repeat center/cover;
+  padding-top: 310px;
+  padding-bottom: 40px;
+  margin-top: 358px;
+}
+.footer-top {
+  display: flex;
+  -moz-column-gap: 128px;
+       column-gap: 128px;
+  align-items: center;
+}
+.footer-top-data {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.footer-top-data-title {
+  color: #B6C197;
+}
+.footer-top-data-subtitle {
+  font-weight: 700;
+  color: white;
+}
+.footer-center {
+  display: flex;
+  align-items: center;
+  margin-top: 113px;
+}
+.footer-center-card {
+  width: 20%;
+}
+.footer-center-card-title {
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+.footer-center-card-desc {
+  color: #B6C197;
+  margin-bottom: 12px;
+  font-weight: 200;
+}
+.footer-center-card-mail {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.footer-center-card-links {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+.footer-center-card:last-child {
+  width: 40%;
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.footer-bottom-symbol {
+  color: #B6C197;
+}
