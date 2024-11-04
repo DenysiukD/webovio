@@ -4,6 +4,12 @@
 .container{
     margin-left: 164px;
     margin-right: 166px;
+    @media(max-width: 375px){
+        &{
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+    }
 }
 .header{
     &-wrapper{
@@ -13,7 +19,12 @@
             font-style: normal;
             padding-bottom: 210px;
             padding-top: 24px;
+            @media(max-width: 375px){
+                &{
+                 padding-bottom: 24px;
+                }
     }
+}
 
     &-partners{
         display: flex;
@@ -23,11 +34,20 @@
     bottom: 75px;
     right:0;
     padding: 60px 166px 54px 65px;
+    @media(max-width: 375px){
+        &{
+            display: none;
+        }
+    }
     }
     &-suptitle{
     color: $white;
     font-size: 14px;
     margin-top: 121px;
+    @media(max-width: 375px){
+     &{
+        margin-top: 20px;
+        }
     }
     &-title{
     color:$white;
@@ -35,6 +55,14 @@
     font-size: 60px;
     line-height: 74px;
     margin-top: 24px;
+    @media(max-width: 375px){
+        &{
+           font-size: 24px;
+           line-height: unset;
+        }
+    }
+        
+    }
     }
    &-desc{
     color:$white;
@@ -75,11 +103,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media(max-width: 375px){
+        &{
+          flex-direction: column;
+        }
+    }
     &-left{
         &-suptitle{
             font-size: 14px;
             color: rgba(77, 83, 60, 0.9);
             margin-bottom: 29px;
+            @media(max-width: 375px){
+                &{
+                   font-size: 22px;
+                   
+                }
         }
         &-title{
             font-size: 36px;
@@ -103,12 +141,23 @@
         padding-top: 120px;
         padding-left: 40px;
         padding-right: 40px;
+        @media(max-width: 375px){
+            &{
+              padding: 14px;
+            }
         &-title{
             font-size: 24px;
             line-height: 167%;
             color: #4d533c;
             width: 426px;
             margin-bottom: 50px;
+            @media(max-width: 375px){
+                &{
+                   font-size: 18px;
+                 padding-left: 36px;
+                 
+                }
+            }
         }
         &-worker{
             display: flex;
@@ -144,6 +193,14 @@
  justify-content: center;
  margin-top: 293px;
  padding-left: 50px;
+ @media(max-width: 375px){
+    &{
+       margin-top: 20px;
+       padding-left: 20px;
+       column-gap: 0px;
+       flex-direction: column;
+       row-gap: 20px;
+    }
  &-title{
  color: #4D533C;
  font-size: 36px;
@@ -163,6 +220,13 @@ justify-content: space-between;
 align-items: center;
 margin-top: 109px;
 position: relative;
+
+@media(max-width: 375px){
+    &{
+    flex-direction: column;
+    margin-top: 20px;
+    }
+}
 &-info{
 margin-right: 400px;
 line-height: 26px;

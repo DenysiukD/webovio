@@ -30,6 +30,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 164px;
   margin-right: 166px;
 }
+@media (max-width: 375px) {
+  .container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
 
 .header-wrapper {
   background: url(/images/Bitmap.png) no-repeat center/cover;
@@ -38,6 +44,11 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   padding-bottom: 210px;
   padding-top: 24px;
+}
+@media (max-width: 375px) {
+  .header-wrapper {
+    padding-bottom: 24px;
+  }
 }
 .header-partners {
   display: flex;
@@ -49,17 +60,33 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   padding: 60px 166px 54px 65px;
 }
+@media (max-width: 375px) {
+  .header-partners {
+    display: none;
+  }
+}
 .header-suptitle {
   color: white;
   font-size: 14px;
   margin-top: 121px;
 }
-.header-title {
+@media (max-width: 375px) {
+  .header-suptitle {
+    margin-top: 20px;
+  }
+}
+.header-suptitle-title {
   color: white;
   font-weight: 700;
   font-size: 60px;
   line-height: 74px;
   margin-top: 24px;
+}
+@media (max-width: 375px) {
+  .header-suptitle-title {
+    font-size: 24px;
+    line-height: unset;
+  }
 }
 .header-desc {
   color: white;
