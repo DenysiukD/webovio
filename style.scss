@@ -220,17 +220,31 @@ justify-content: space-between;
 align-items: center;
 margin-top: 109px;
 position: relative;
-
 @media(max-width: 375px){
     &{
-    flex-direction: column;
-    margin-top: 20px;
+       flex-direction: column;
+       margin-top: 20px;
     }
+
+& img {
+   @media(max-width: 375px){
+    &{
+       width: 100%;
+       height: 300px;
+    }
+}
 }
 &-info{
 margin-right: 400px;
 line-height: 26px;
-color: #213842;}
+color: #213842;
+@media(max-width: 375px){
+    &{
+       margin-right: 0px;
+       line-height: unset;
+
+    }
+}
 &-text{
     font-family: "Poppins", sans-serif;
 }
@@ -255,6 +269,13 @@ background: rgb(255, 255, 255);
 padding: 30px;
 left: 322px;
 top: 350px;
+@media(max-width: 375px){
+    &{
+     left: unset;
+     top: unset;
+     position: relative;
+
+    }
 }
 .second-card{
     margin-left: 172px;
@@ -266,6 +287,10 @@ top: 350px;
     margin-top: 300px;
     & h2{
         width: 650px;
+        @media(max-width: 375px){
+            &{
+               width: 100%;
+            }}
     }
     &-cards{
         margin-top: 60px;
