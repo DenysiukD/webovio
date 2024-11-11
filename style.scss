@@ -1,6 +1,44 @@
 @import 'variables';
 @import 'reset';
 @import 'font';
+html{
+    scroll-behavior: smooth;
+}
+
+.hidden-menu{
+    transition: all .7s;
+    transform: translateX(-150%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    background: #000;
+    padding: 14px;
+    &-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-title{
+            color:white;
+        }
+        &-close{
+            color: white;
+            font-style: 30px;
+            rotate: 45deg;
+        }
+        &-list{
+            color: white;
+        &-item{
+        color: white;
+        }
+        }
+    }
+}
+.show-burger-menu{
+    transform: translateX(0%);
+}
 .container{
     margin-left: 164px;
     margin-right: 166px;

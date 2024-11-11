@@ -12,7 +12,7 @@
     <div class="page-wrapper">
         <div class="header-wrapper">
             <div class="container">
-                <header class="header">
+                <header id="header" class="header">
                     <nav class="nav">
                         <img src="/images/Logo.svg" alt="logo" class="nav-logo">
                         <div class="nav-burger">
@@ -26,7 +26,21 @@
                     <p class="header-desc">Anteelo is a leading strategic design firm that builds powerful digital<br>
                         solutions for startups and enterprises.</p>
                     <a href="#" class="header-link">Get in touch</a>
-
+                    <!-- hidden-menu - start -->
+                    <div class="hidden-menu">
+                        <div class="hidden-menu-top">
+                            <h2 class="hidden-menu-top-title">               <img src="/images/Logo.svg" alt="logo" class="nav-logo"></h2>
+                     <div class="hidden-menu-top-close">+</div>
+                        </div>
+                     <ul class="hidden-menu-list">
+                        <a href="#header" class="hidden-menu-lost-item">Header</a>
+                        <a href="#you"class="hidden-menu-lost-item">Do for you</a>
+                        <a href="#projects"class="hidden-menu-lost-item">Awesome Project</a>
+                        <a href="#product"class="hidden-menu-lost-item">Product Idea</a>
+                        <a href="#contacts"class="hidden-menu-lost-item">Contacts</a>
+                     </ul>
+                    </div>
+                    <!-- hidden-menu - end -->
                     <div class="header-partners">
                         <img src="/images/parnters-1.png" alt="" class="header-parnters-icon">
                         <img src="/images/parnters-2.png" alt="" class="header-parnters-icon">
@@ -40,7 +54,7 @@
         </div>
         <div class="strategy-wrapper">
             <div class="container">
-                <div class="strategy">
+                <div id="u" class="strategy">
                     <div class="strategy-left">
                         <p class="strategy-left-suptitle">What we do for you</p>
                         <h2 class="strategy-left-title">Strategy. Design <br> Content. Technology <br> Development </h2>
@@ -66,7 +80,7 @@
         </div>
         <div class="work-wrapper">
             <div class="container">
-                <div class="work">
+                <div id="projects" class="work">
                     <h1 class="work-title"> We Have Some <br>
                         Awesome Project. </h1>
                     <p class="work-text"> Lorem Ipsum is simply dummy text of the printing and <br> typesetting
@@ -160,7 +174,7 @@
         </div>
         <div class="services-wrapper">
             <div class="container">
-                <div class="services">
+                <div id="product"  class="services">
                     <h2 class="card-title">Deation & Evaluation - Best Way to Kick off Your Product Idea</h2>
                     <div class="services-cards">
                         <div class="services-cards-item">
@@ -194,7 +208,7 @@
         </div>
         <div class="footer-wrapper">
             <div class="container">
-                <footer class="footer">
+                <footer id="contacts" class="footer">
                     <div class="footer-top">
                         <div class="footer-top-data">
                             <p class="footer-top-data-title">Phone</p>
@@ -256,6 +270,7 @@
             </div>
          </div>
     </div>
+    <script src="/script.js"></script>
 </body>
 
 </html>
