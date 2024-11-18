@@ -54,6 +54,8 @@ html{
     }
 }
 .header{
+    position: relative;
+    z-index: 1000;
     &-title{
         color: $white;
     }
@@ -76,7 +78,7 @@ html{
     column-gap: 66px;
     background: $white;
     position: absolute;
-    bottom: 75px;
+    bottom: -300px;
     right:0;
     padding: 60px 166px 54px 65px;
     @media(max-width: 375px){
